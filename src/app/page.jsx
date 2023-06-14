@@ -1,4 +1,17 @@
 import Image from "next/image";
+import artimag from "../../public/img/article-image.jpg"
+import bootstrap1 from "../../public/img/bootstrap1.png"
+import css31 from "../../public/img/css31.png"
+import git from "../../public/img/git.png"
+import html5img from "../../public/img/html53.png"
+import java from "../../public/img/java.png"
+import js1 from "../../public/img/js1.png"
+import mysql from "../../public/img/mysql.png"
+import Net from "../../public/img/Net.jpg"
+import oracle from "../../public/img/oracle.png"
+import php from "../../public/img/php.png"
+import Python from "../../public/img/Python.png"
+import recluter from "../../public/img/recluter.jpeg"
 
 export default function Home() {
   return (
@@ -14,7 +27,7 @@ export default function Home() {
             <div className="col-md-4">
               <Image
                 alt=""
-                src="/../public/img/article-image.jpg"
+                src={artimag}
                 width={500}
                 height={300}
                 className="card-img-top"
@@ -51,7 +64,7 @@ export default function Home() {
               <Image
                 className="card-img-top"
                 alt="recluter"
-                src="/../public/img/recluter.jpeg"
+                src={recluter}
                 height={400}
                 width={500}
               ></Image>
@@ -80,7 +93,7 @@ export default function Home() {
                 <article className="card col-3">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/html53.png"
+                    src={html5img}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -95,7 +108,7 @@ export default function Home() {
                 <article className="card col-3">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/css31.png"
+                    src={css31}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid mh-25"
@@ -110,7 +123,7 @@ export default function Home() {
                 <article className="card col-3">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/js1.png"
+                    src={js1}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -125,7 +138,7 @@ export default function Home() {
                 <article className="card col-3">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/bootstrap1.png"
+                    src={bootstrap1}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -146,7 +159,7 @@ export default function Home() {
                 <article className="card col-3">
                   <Image
                   alt="HTML5 image"
-                  src="/../public/img/java.png"
+                  src={java}
                   width={200}
                   height={200}
                   className="card-img pt-1 img-fluid">
@@ -162,7 +175,7 @@ export default function Home() {
                   <article className="card-body">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/php.png"
+                    src={php}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -177,7 +190,7 @@ export default function Home() {
                   <article className="card-body">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/Net.jpg"
+                    src={Net}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -192,7 +205,7 @@ export default function Home() {
                   <article className="card-body">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/python.png"
+                    src={Python}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -214,7 +227,7 @@ export default function Home() {
                   <article className="card-body">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/mysql.png"
+                    src={mysql}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -229,7 +242,7 @@ export default function Home() {
                   <article className="card-body">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/oracle.png"
+                    src={oracle}
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
@@ -244,7 +257,10 @@ export default function Home() {
                   <article className="card-body">
                   <Image
                     alt="HTML5 image"
-                    src="/../public/img/git.png"
+                    src={git
+                    
+                    
+                    }
                     width={200}
                     height={200}
                     className="card-img pt-1 img-fluid"
